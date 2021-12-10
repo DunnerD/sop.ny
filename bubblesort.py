@@ -26,7 +26,7 @@ def array_gen(n):
     arr.append(randint(0,n))
   return arr
 
-print(bubble_sort_tester(10000))
+print(bubble_sort_tester(1000))
 
 #   steup_code = f"form_main_import{list}"
 #   if list != "sorted" else ""

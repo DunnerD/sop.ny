@@ -68,10 +68,10 @@ def mergeSort(arr, l, r):
 	#print("%d" % arr[i]),
  #"""
 
-def merge_sort_tester(n):
+def merge_tester(n):
   arr = array_gen(n)
   startTime = time.time()
-  sorted_arr = merge_sort_tester(arr)
+  sorted_arr = merge_tester(arr)
   stopTime = time.time()
   return stopTime - startTime
 
@@ -80,6 +80,6 @@ def array_gen(n):
   for i in range(n):
     arr.append(randint(0,n))
   return arr
-print(merge_sort_tester(1000))
+print(merge_tester(1000))
 
 
