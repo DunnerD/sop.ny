@@ -7,14 +7,14 @@ import bubblesort as bs
 #buttnes
 st.title("Sorteringsalgoritmer")
 
-#result = st.button(bs)
+result = st.button()
 
-#st.write(result)
+st.write(result)
 
 result = st.button("Merge sort")
 
 st.write(result)
 
-result = st.button("Merge sort")
+result = st.button("Quicksort")
 
 st.write(result)
