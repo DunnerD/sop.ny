@@ -1,5 +1,5 @@
 import streamlit as st
-
+import bubblesort as bs
 
 
 #buble as class import
@@ -7,7 +7,11 @@ import streamlit as st
 #buttnes
 st.title("Sorteringsalgoritmer")
 
-result = st.button("Bubblesort")
+#result = st.button(bs)
+
+#st.write(result)
+
+result = st.button("Merge sort")
 
 st.write(result)
 
