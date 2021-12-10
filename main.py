@@ -1,20 +1,38 @@
 import streamlit as st
 import bubblesort as bs
-#from bubblesort import bubble_sort
-
+import Mergesortv2 as mg
+import Quicksort as qs
+import time
+import random
 #buble as class import
 #merge as class impoert
 #buttnes
+
+
+
+#array_gen = []
+#start = time.time()
+#bubble_sort([array_gen])
+#end = time.time()
+
+#print("It took " + str(end - start) + " seconds")
+
+
+
 st.title("Sorteringsalgoritmer")
 
-result = st.button("bubblesort")
+result = st.button("Run all")
 
 st.write(result)
 
-result = st.button("Merge sort")
+st.title("Bubblesort")
 
-st.write(result)
+st.write (bs.bubble_sort_tester(1000))
 
-result = st.button("Quicksort")
+st.title("Mergesort")
 
-st.write(result)dd
+st.write (mg.merge_sort_tester(1000))
+
+st.title("Quicksort")
+
+st.write (qs.quick_sort_tester(1000))

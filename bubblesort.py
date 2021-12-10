@@ -3,6 +3,7 @@ import numpy as np
 from random import randint
 import time
 
+
 def bubble_sort(list1):  
     # Outer loop for traverse the entire list  
     for i in range(0,len(list1)-1):  
