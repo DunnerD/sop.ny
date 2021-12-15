@@ -25,4 +25,4 @@ def array_gen(n):
     arr.append(randint(0,n))
   return arr
 
-print(insertion_sort_tester(10000))
+print(insertion_sort_tester(1000))
