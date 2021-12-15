@@ -28,13 +28,3 @@ def array_gen(n):
   return arr
 
 print(bubble_sort_tester(1000))
-
-#   steup_code = f"form_main_import{list}"
-#   if list != "sorted" else ""
-#   stmt = f"{list}({array})"
-# times = repeat(setup = setup_code, stmt=stmt, repeat=3, number=10)
-
-# list1 = np.random.randint(1,200000,20000)
-# print("The unsorted list is: ", list)
-# # Calling the bubble sort function  
-# print("The sorted list is: ", bubble_sort(list){min(times)})  
