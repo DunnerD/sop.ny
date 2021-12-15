@@ -1,13 +1,9 @@
-import streamlit as st
+
 import bubblesort as bs
 import Mergesortv2 as mg
 import Quicksort as qs
 import insertionsort as io
-import time
-import random
-import matplotlib.pyplot as plt
-import numpy as np
-
+import streamlit as st
 
 st.title("Sorteringsalgoritmer")
 
