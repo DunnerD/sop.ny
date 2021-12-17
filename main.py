@@ -12,23 +12,22 @@ st.title("Sorteringsalgoritmer")
 
 result = st.button("Run all")
 
-
 st.title("Bubblesort")
 
-st.write (bs.bubble_sort_tester(10000))
+st.write (bs.bubble_sort_tester(1000))
 
 st.title("Mergesort")
 
-st.write (mg.merge_sort_tester(10000))
+st.write (mg.merge_sort_tester(1000))
 
 st.title("Quicksort")
 
-st.write (qs.quick_sort_tester(10000))
+st.write (qs.quick_sort_tester(1000))
 
 st.title("Insertionsort")
 
-st.write (io.insertion_sort_tester(10000))
+st.write (io.insertion_sort_tester(1000))
 
 st.title("Radixsort")
 
-st.write (rs.counting_sort_tester(1000000))
+st.write (rs.counting_sort_tester(1000))
